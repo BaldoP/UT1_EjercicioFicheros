@@ -5,6 +5,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 public class PilotMain {
     public static void main(String[] args) {
@@ -13,11 +14,11 @@ public class PilotMain {
         marco.setSize(400,200);
         marco.setLayout(new FlowLayout());
 
-        try {
+        /*try {
             UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
 
         JPanel panel1 = new JPanel();
         JPanel panel2 = new JPanel();
@@ -64,6 +65,11 @@ public class PilotMain {
 
         beditor.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                JFileChooser file = new JFileChooser();
+                file.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+                file.showSaveDialog(null);
+                EditArchivo ea = new EditArchivo();
+                ea.prueba(file);
 
             }
         });
