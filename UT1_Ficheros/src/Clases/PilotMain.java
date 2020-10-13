@@ -126,7 +126,14 @@ public class PilotMain {
 
         bcifrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
+                int response;
+                file.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+                response = file.showSaveDialog(null);
+                if(response == file.APPROVE_OPTION) {
+                    CifrarArchivo cfa = new CifrarArchivo();
+                    cfa.cifrado(file);
+                }
+                JOptionPane.showMessageDialog(marco,"El archivo se ha cifrado correctamente");
             }
         });
     }

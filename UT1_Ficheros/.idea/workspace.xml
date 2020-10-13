@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clases/CrearArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarPalabras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarPalabras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CopiarArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CopiarArchivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/EditArchivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/ContarPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/ContarPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/ContarVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/ContarVocales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/CopiarArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/CopiarArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/EditArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/EditArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/PilotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/PilotMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,22 +79,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602439300144" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1602609880386">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1602623219949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602609880386" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1602609880386">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1602623219949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602609880386" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1602609880386">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1602623219949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602609880386" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1602609880386">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1602623219949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602609880386" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
     <state width="1131" height="347" key="GridCell.Tab.1.bottom" timestamp="1602527114451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -126,9 +115,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602441460405" />
-    <state x="685" y="146" key="new project wizard" timestamp="1602607573577">
+    <state x="12" y="169" width="1076" height="829" key="dock-window-1" timestamp="1602613961282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="146" key="new project wizard/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602607573577" />
+    <state x="12" y="169" width="1076" height="829" key="dock-window-1/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602613961282" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-2" timestamp="1602622096749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-2/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602622096749" />
+    <state x="685" y="146" key="new project wizard" timestamp="1602615509799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="146" key="new project wizard/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602615509799" />
   </component>
 </project>

@@ -45,7 +45,7 @@ public class ContarVocales {
             BufferedReader buffer = new BufferedReader(lee);
             String aux;
             while ((aux = buffer.readLine())!=null){
-                lectura = lectura+aux+"n";
+                lectura = lectura+aux;
             }
             lee.close();
             }catch (IOException e){
@@ -98,7 +98,7 @@ public class ContarVocales {
         marco.add(panel1);
         marco.add(panel1);
         marco.setLocationRelativeTo(null);
-        //marco.setResizable(false);
+        marco.setResizable(false);
         marco.setVisible(true);
     }
 }
