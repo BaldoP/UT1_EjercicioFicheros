@@ -12,9 +12,9 @@ import java.util.Date;
 public class EditArchivo {
     public static void prueba(JFileChooser fich){
         JFrame marco = new JFrame("Editar | Ver archivo");
-        marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         marco.setSize(620,450);
         marco.setLayout(new FlowLayout());
+
 
         JPanel panel1 = new JPanel(new GridLayout(5,1));
         JPanel panel2 = new JPanel();
@@ -43,25 +43,22 @@ public class EditArchivo {
         texta.setWrapStyleWord(true);
         JScrollPane sp = new JScrollPane(texta);
 
-        JButton modificar = new JButton("Guardar");
-        JButton borrar = new JButton("Borrar");
-
-
-
+        JButton modificar = new JButton("Guardar cambios");
+        JButton borrar = new JButton("Borrar archivo");
 
 
         // --- INFORMACIÓN --- //
         File r = fich.getSelectedFile();
-        tnombre.setText(r.getName());                            // Nombre
+        tnombre.setText(r.getName());                             // Nombre
         String aux = fich.getTypeDescription(r);
         tformato.setText(aux);                                   // Formato
         truta.setText(r.getAbsolutePath());                      // Ruta absoluta
-        ttam.setText(String.valueOf(r.getTotalSpace()));
-        long lastModified = r.lastModified();                    // Tamaño
+        ttam.setText(String.valueOf(r.getTotalSpace()));         // Tamaño
+        long lastModified = r.lastModified();
         String pattern = "dd-MM-yyyy hh:mm aa";
         SimpleDateFormat sD = new SimpleDateFormat(pattern);
         Date lastM = new Date(lastModified);
-        tultm.setText(sD.format(lastM));                        // Ultima Modificacion
+        tultm.setText(sD.format(lastM));                         // Ultima Modificacion
 
 
         // --- EDITAR --- //
@@ -100,14 +97,8 @@ public class EditArchivo {
         // --- BORRAR --- //
         borrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                try {
-                    BufferedWriter bw = new BufferedWriter(new FileWriter(r));
-                    bw.write("");
-                    bw.close();
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-                int option = JOptionPane.showConfirmDialog(marco,"¿Deseas borrar los cambios realizados?","",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
+                r.delete();
+                int option = JOptionPane.showConfirmDialog(marco,"¿Deseas borrar por completo el archivo seleccionado?","",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
                 if (option == JOptionPane.YES_OPTION){
                     System.exit(0);
                 }
@@ -134,10 +125,10 @@ public class EditArchivo {
         panel3.add(modificar);
         panel3.add(borrar);
 
-
         marco.add(panel1);
         marco.add(panel2);
         marco.add(panel3);
+        marco.setLocationRelativeTo(null);
         marco.setResizable(false);
         marco.setVisible(true);
     }
