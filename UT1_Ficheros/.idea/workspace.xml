@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="">
+    <list default="true" id="fc1b6977-dbf6-44e0-b9ab-e7f2cc816d42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JTattoo_1_6_13.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/ContarVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/ContarVocales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/EditArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/EditArchivo.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="" />
->>>>>>> parent of 9458d53... Prueba Git
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ijvgARvDhzmzwqKuyjRhu5E3pW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1isc9ATmGRnDuLd8Fw7SORU0G0Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,11 +25,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Clases/JTattoo-1.6.13.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="PilotMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -68,66 +51,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="" />
-      <created>1602433923148</created>
+      <changelist id="fc1b6977-dbf6-44e0-b9ab-e7f2cc816d42" name="Default Changelist" comment="" />
+      <created>1602699586181</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602433923148</updated>
+      <updated>1602699586181</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1602439300144">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602439300144" />
-    <state width="1447" height="274" key="GridCell.Tab.0.bottom" timestamp="1602675507537">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1447" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
-    <state width="1447" height="274" key="GridCell.Tab.0.center" timestamp="1602675507537">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1447" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
-    <state width="1447" height="274" key="GridCell.Tab.0.left" timestamp="1602675507536">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1447" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507536" />
-    <state width="1447" height="274" key="GridCell.Tab.0.right" timestamp="1602675507537">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1447" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
-    <state width="1131" height="347" key="GridCell.Tab.1.bottom" timestamp="1602527114451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602527114451" />
-    <state width="1131" height="347" key="GridCell.Tab.1.center" timestamp="1602527114451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602527114451" />
-    <state width="1131" height="347" key="GridCell.Tab.1.left" timestamp="1602527114451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602527114451" />
-    <state width="1131" height="347" key="GridCell.Tab.1.right" timestamp="1602527114451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602527114451" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1602441460405">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602441460405" />
-    <state x="12" y="169" width="1076" height="829" key="dock-window-1" timestamp="1602613961282">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="12" y="169" width="1076" height="829" key="dock-window-1/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602613961282" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-2" timestamp="1602622096749">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-2/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602622096749" />
-    <state x="685" y="146" key="new project wizard" timestamp="1602615509799">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="685" y="146" key="new project wizard/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602615509799" />
   </component>
 </project>

@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.io.*;
-import java.util.Scanner;
+
 
 public class ContarVocales {
     public static void cVocales(JFileChooser fich){

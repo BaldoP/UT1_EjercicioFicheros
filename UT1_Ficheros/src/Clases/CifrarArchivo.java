@@ -2,7 +2,7 @@ package Clases;
 
 import javax.swing.*;
 import java.io.*;
-import java.util.Scanner;
+
 
 public class CifrarArchivo {
     public static void cifrado(JFileChooser file){

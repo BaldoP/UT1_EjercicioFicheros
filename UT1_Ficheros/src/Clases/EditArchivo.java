@@ -10,7 +10,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class EditArchivo {
-<<<<<<< HEAD
     public static void prueba(JFileChooser fich){
         JFrame marco = new JFrame("Editar | Ver archivo");
         marco.setSize(620,450);
@@ -133,6 +132,4 @@ public class EditArchivo {
         marco.setResizable(false);
         marco.setVisible(true);
     }
-=======
->>>>>>> parent of 9458d53... Prueba Git
 }
