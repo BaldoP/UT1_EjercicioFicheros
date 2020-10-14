@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" afterDir="false" />
@@ -9,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/src/Clases/ContarVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/ContarVocales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/EditArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/EditArchivo.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="5bb0b8f7-4154-46cd-80ad-1a5aaa606a7f" name="Default Changelist" comment="" />
+>>>>>>> parent of 9458d53... Prueba Git
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
