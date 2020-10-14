@@ -20,7 +20,10 @@ public class ContarVocales {
         panel1.setLayout(gl);
         panel1.setBorder(new EmptyBorder(15,0,0,0));
 
-        JLabel titulo = new JLabel("Numero totales de vocales del fichero");
+        JLabel titulo = new JLabel("Número totales de vocales del fichero");
+        JTextField tf = new JTextField("",18);
+        tf.setText(fich.getSelectedFile().getName().replaceAll("\\.[^.]*$",""));
+        tf.setEditable(false);
         JLabel vocalA = new JLabel("Vocal A:");
         JTextField tfa = new JTextField("",10);
         tfa.setEditable(false);
@@ -49,7 +52,7 @@ public class ContarVocales {
             }
             lee.close();
             }catch (IOException e){
-                System.out.println("¡Ha ocurrido un problema!");
+                JOptionPane.showMessageDialog(marco,"¡No has seleccionado un documento de texto!","Advertencia",JOptionPane.WARNING_MESSAGE);
             }
 
         int conA=0, conE=0, conI=0, conU=0, conO=0;
@@ -95,6 +98,7 @@ public class ContarVocales {
         panel1.add(tfu);
 
         marco.add(titulo);
+        marco.add(tf);
         marco.add(panel1);
         marco.add(panel1);
         marco.setLocationRelativeTo(null);

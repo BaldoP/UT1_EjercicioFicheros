@@ -5,11 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/CifrarArchivo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/ContarVocales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UT1_Ficheros/Clases/PilotMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/CifrarArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clases/ContarVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/ContarVocales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/PilotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/PilotMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/EditArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/EditArchivo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +77,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602439300144" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1602623219949">
+    <state width="1447" height="274" key="GridCell.Tab.0.bottom" timestamp="1602675507537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1602623219949">
+    <state width="1447" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
+    <state width="1447" height="274" key="GridCell.Tab.0.center" timestamp="1602675507537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1602623219949">
+    <state width="1447" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
+    <state width="1447" height="274" key="GridCell.Tab.0.left" timestamp="1602675507536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1602623219949">
+    <state width="1447" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507536" />
+    <state width="1447" height="274" key="GridCell.Tab.0.right" timestamp="1602675507537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602623219949" />
+    <state width="1447" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1360.174.1360.728@0.0.1920.1040" timestamp="1602675507537" />
     <state width="1131" height="347" key="GridCell.Tab.1.bottom" timestamp="1602527114451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

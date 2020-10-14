@@ -2,6 +2,7 @@ package Clases;
 
 import javax.swing.*;
 import java.io.*;
+import java.util.Scanner;
 
 public class CifrarArchivo {
     public static void cifrado(JFileChooser file){
@@ -12,23 +13,25 @@ public class CifrarArchivo {
             try {
                 FileWriter escritor = new FileWriter(file.getSelectedFile().getAbsolutePath().replaceAll("\\.[^.]*$","")+"_CIFRADO.txt");
                 BufferedWriter salida = new BufferedWriter(escritor);
-
                 String cadena = entrada.readLine();
-                String palabras[] = cadena.split("\\s");
-
-                String aux1;
-                String aux2;
-
-                for (String w : palabras){
-                    StringBuilder sb = new StringBuilder(w);
-                    aux1 = sb.substring(0,1);
-                    aux2 = sb.substring(1);
-                    String ultletra = aux2.substring(aux2.length()-1);
-                    String primultletra = aux2.substring(0,aux2.length()-1);
-                    StringBuilder sb1 = new StringBuilder(primultletra);
-                    StringBuilder sb2 = new StringBuilder(ultletra);
-                    sb1.reverse();
-                    salida.write(aux1 + sb1 + sb2 + " ");
+                while (cadena != null) {
+                    String [] palabras=cadena.split(" ");
+                    String aux;
+                    for(int i=0;i<=palabras.length-1; i++){
+                        String aux2="";
+                        aux=palabras[i];
+                        if (palabras[i].length()>4){
+                            for (int j=aux.length()-1;j>=0;j--){
+                                aux2 =aux2 + aux.charAt(j);
+                            }
+                            String aux3 = aux2.substring(aux2.length()-1)+aux2.substring(1,aux2.length()-1)+aux2.substring(0,1);
+                            salida.write(aux3+" ");
+                        }else {
+                            salida.write(aux+" ");
+                        }
+                    }
+                    salida.newLine();
+                    cadena = entrada.readLine();
                 }
                 entrada.close();
                 salida.close();

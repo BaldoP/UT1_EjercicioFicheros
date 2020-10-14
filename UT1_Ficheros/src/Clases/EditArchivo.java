@@ -49,7 +49,7 @@ public class EditArchivo {
 
         // --- INFORMACIÓN --- //
         File r = fich.getSelectedFile();
-        tnombre.setText(r.getName());                             // Nombre
+        tnombre.setText(r.getName().replaceAll("\\.[^.]*$",""));                             // Nombre
         String aux = fich.getTypeDescription(r);
         tformato.setText(aux);                                   // Formato
         truta.setText(r.getAbsolutePath());                      // Ruta absoluta
